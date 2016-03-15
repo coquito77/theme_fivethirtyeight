@@ -12,7 +12,7 @@ theme_fivethirtyeight <- function(base_size = 13, base_family = "") {
       text =              element_text(family = base_family, face = "plain",
                                        colour = "#656565", size = base_size,
                                        hjust = 0.5, vjust = 0.5, angle = 0, 
-                                       lineheight = 0.9),
+                                       lineheight = 0.9, margin = margin(), debug = FALSE),
       
       # Modified inheritance structure of text element
       plot.title =        element_text(size = rel(1.5), family = '' , 
